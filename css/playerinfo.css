@@ -1,0 +1,372 @@
+a,div,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+ background-color: #F9F9F9;
+}
+.top .navbar-default{
+    background-color: #FFFFFF;
+}
+.top-item{
+    height: 80px;
+
+}
+.logo{
+    padding-left: 80px;
+    padding-top:10px;
+}
+.top-item .font{
+    padding-top: 10px;
+}
+.title{
+    font-size: 35px;
+}
+.font{
+    font-size: 15px;
+}
+/* 导航区域 */
+
+.navbar-nav{
+    font-size: 20px;
+}
+.nav-item a{
+    height: 60px;
+    padding: 0;
+    margin: 0 20px;
+}
+
+/* 更改初始设置 */
+.navbar-nav li>a{
+    line-height: 60px;
+    padding:0 10px;
+    margin: 10px;
+}
+.navbar-default .navbar-nav > .actived > a, .navbar-default .navbar-nav > .actived > a:hover, .navbar-default .navbar-nav > .actived > a:focus {
+    color:salmon;
+    border-bottom: 5px solid salmon; 
+}
+.actived a{
+    color: salmon;
+    border-bottom: 5px solid salmon; 
+}
+/* 更改初始设置 */
+/* .container{
+    width: 70%;
+} */
+.search{
+    line-height: 60px;
+}
+.navbar-form,.navbar-form .form-control {
+    width: 350px;
+}
+.form-group,.form-group input{
+    width: 100%;
+    place-content: center;
+}
+.form-control{
+    border-radius: 34px;
+}
+.top-right{
+    line-height: 60px; 
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.top-right .font{
+    font-size: 15px;
+    padding: 5px;
+}
+.mar {
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 25px;
+    color: #969494f5;
+}
+/* 用户信息样式 */
+.userinfo{
+    padding-left: 20px;
+}
+.userinfo .img{
+    float: left;
+    padding-right: 10px;
+}
+.userinfo .info{
+    float: right;
+    padding-left:10px; 
+    line-height: 30px  
+}
+.userinfo .leve{
+    font-size: 20px;
+}
+.userinfo .name{
+    font-size: 20px;
+}
+.login-rigster{
+    margin-top: 20px;
+}
+.top-item{
+    margin-bottom:0px; 
+}
+/* 主体内容样式 */
+.playerinfo{
+    background-image: url("../img/bg/background.png");
+    height:1522px;
+}
+.container{
+    width: 70%;
+}
+.title{
+    margin: 30px;
+    width: 100%;
+    height: 110px;
+    font-size: 18px;
+    border-radius: 100px;
+    background-color: #F9F9F9;
+}
+.title .player-icon{
+    width: 80px;
+    border-radius:100%; 
+    margin: 15px;
+    float: left;
+    margin-left:30px; 
+}
+.playerinfo .info{
+    position: relative;
+    float: left;
+
+
+    
+    top: 20px;
+    left: 5px;
+}
+.playerinfo .info .mess{
+    margin-top: 20px;
+}
+.playerinfo .button{
+    position: relative;
+    top: 20px;
+    right: 45px;
+    float: right;
+}
+.playerinfo .button button{
+    margin: 0 5px;
+}
+.playerinfo .button .item{
+    position: relative;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #969494;
+     bottom: 5px;
+    margin: 10px;
+}
+.playerinfo .button .item .age{
+
+    margin:0 20px;
+}
+
+/* 主体左边 */
+.left-info{
+    background-color: #F9F9F9;
+    padding: 10px;
+}
+.left-info .big{
+    width: 100%;
+}
+.left-info .small{
+    width: 70px;
+}
+.left-info .pic {
+    padding: 5px;
+}
+.left-info .pic ul{
+    padding:0 10px;
+}
+.left-info .pic .left{
+    display:block;
+    position: relative;
+    float: left;
+    top: 35px;
+}
+.left-info .pic .right{
+    display:block;
+    position: relative;
+    float: right;
+    top: 35px;
+}
+.left-info .pic li{
+    text-align: center;
+    list-style: none;
+    width: 60px;
+    float: left;
+    margin: 10px;
+}
+.left-info .info{
+    padding: 10px;
+}
+.left-info .info .top{
+    color:salmon;
+    line-height: 40px;
+    border-bottom: 3px solid salmon; 
+}
+/* 主体右部 */
+.right-info{
+    background-color: #F9F9F9;
+}
+.right-info .nav > li > a {
+    height: 50px;
+    line-height: 30px;
+    color: #555;
+    margin: 0;
+    font-size: 20px;
+}
+/* 清除默认样式 */
+.active{
+    background-color: #fff;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    background-color: #fff;
+    text-decoration: black;
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: none;
+    border-bottom-color: transparent;
+}
+.nav-tabs > li > a:hover {
+    border-color: #fff;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #fff;
+}
+/* 游戏栏 */
+.right-info .nav-tabs{
+    background-color: #CBCBCB;
+}
+.right-info .player-game{
+    padding: 10px;
+    border-bottom: 1px #CBCBCB dashed;
+}
+.right-info .tab-pane{
+    background-color: #fff;
+    padding: 30px;
+}
+/* 顶部游戏图标及段位 */
+.right-info .gameicon{
+    float: left;
+}
+.right-info .top{
+    height: 150px;
+}
+.right-info .gameinfo{
+    position: relative;
+    float: left;
+    padding-left: 20px;
+}
+.gameinfo .lecel span,.gameinfo .acount span{
+    display: block;
+    margin-top: 10px;
+}
+.right-info .order{
+    position: relative;
+    font-size: 20px;
+    padding-top:20px; 
+    position: relative;
+    float: right;
+}
+.right-info .order span{
+    color: salmon;
+    font-size: 30px;
+}
+.right-info .order button{
+    float: right;
+    width: 100px;
+    margin-top:20px; 
+}
+/* 介绍栏 */
+.right-info .introduce h3{
+    margin-top: 10px;
+}
+.right-info .introduce p{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+/* 评论栏 */
+.right-info .comment h3{
+    position: relative;
+    margin-top: 10px;
+    float: left;
+}
+.right-info .comment .point{
+    position: relative;
+    float: right;
+}
+.right-info .comment .usercommint{
+    margin-top:50px; 
+    padding:0 20px;
+}
+.right-info .comment .usercommint li{
+    margin: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-bottom: #CBCBCB solid 1px;
+}
+.comment .usercommint .name{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.comment .usercommint .time{
+    display: block;
+    float: right;
+    font-size: 15px;
+    color: #969494;
+}
+/* 主体内容样式 */
+
+/* 尾部信息 */
+.help_box,.foot{
+    background-color: #535353;
+    text-align: center;
+    padding: 20px;
+}
+.foot .help_box .pic{
+    padding: 30px;
+    text-align: center;
+}
+.foot .help_box .font{
+    margin-left: 21%;
+    padding-bottom: 20px;
+}
+.foot .help_box .fl{
+    float: left;
+    font-size: 18px;
+    color: #969494;
+}
+.font .ml40{
+    padding-left: 30px;
+}
+.font  .ml40 a{
+    border: #969494 1px solid;
+    width: 100px;
+    background-color: #363636;
+    margin:0 20px;
+}
+.foot-info{
+    margin-top: 20px;
+    color: #969494;
+}
+/* 模态框注册登录位置 */
+.form-group .code{
+    position: relative;
+    top: -30px;
+    right: -190px;
+    width: 180px;
+}
+.form-group .code a{
+    line-height: 10px;
+    padding-left: 10px;
+}
+
+
